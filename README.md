@@ -1,2 +1,2 @@
 # HWs
-repo for my home works
+repo for my homeworks
