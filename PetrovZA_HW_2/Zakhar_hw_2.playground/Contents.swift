@@ -81,17 +81,17 @@ if isNight {
 
 //ex6
 
-let i = "Отельчик а чего мы спим"
+let str = "Отельчик а чего мы спим"
 
-for Отельчикачегомыспим in i {
-    print(Отельчикачегомыспим)
+for chars in str {
+    print(chars)
 }
 
 //ex7
 
 let j = [13 , 2 , 20 , 21 , 76]
 
-for number in j{
+for number in j {
     if number % 2 == 0 {
         print(number,"четное")
     } else {
@@ -113,5 +113,29 @@ if k <= 10 {
     print("не глупи! столько дней в месяце нет!")
 }
     
+//ex 9
 
+let mess = "aoidjadinanu"
+let letter: Character = "a"
 
+for (index, char) in mess.enumerated() {
+    if index == 0 {
+        if char == letter {
+            print("yes")
+        } else {
+            print("no")
+        }
+        break
+    }
+}
+
+//ex 10
+
+let x = 1...9
+let y = 1...9
+
+for i in x {
+    for ii in y {
+        print(i, " * ", ii, "=" , i * ii)
+    }
+}
