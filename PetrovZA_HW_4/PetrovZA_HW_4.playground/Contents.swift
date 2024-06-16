@@ -155,6 +155,19 @@ func timeOfTheYear (_ month: Int) -> String {
 
 print(timeOfTheYear(2))
 
+///Ex 9
+print("--------------------")
+print("Ex.9")
 
+func factorial (_ n: Int) -> Int {
+    if n == 0 {
+        return 1
+    }
+    return n * factorial (n - 1)
+}
 
+print(factorial(3))
 
+///Ex 10
+print("--------------------")
+print("Ex.10")
