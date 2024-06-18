@@ -130,7 +130,7 @@ func simpleNumb (_ x: Int) -> Bool {
         return true
 }
 
-print(simpleNumb(4))
+print(simpleNumb(2))
 
 ///Ex 8
 print("--------------------")
